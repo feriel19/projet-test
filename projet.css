@@ -1,0 +1,173 @@
+:root{
+    --primarycolor:#ff274b;
+    --secondarycolor:#f7bcf7;
+    --lightcolor:#ffffff;
+    --bgcolor-1:#171a1c;
+    --bgcolor-2:#22282a;
+    --padding:8%;
+}  
+body
+    {
+        background-color:burlywood;
+    } 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+html{
+    font-family:"josefin sans",sans-serif ;
+    font-size: 25px;
+    color :var(#22282a);
+}
+.home{
+    width: 100%;
+    height:100vh;
+    background-color: var(--bgcolor-1);  
+}
+h3{
+line-height:300px;
+font-family:georgia;
+}
+h2{
+text-align: left;
+font-family: monospace;
+}
+h1{
+    text-align: left;
+   line-height: 150px  ;
+   color:blue;
+font-family: arial;
+font-size: meduim;
+display: inline-block;    
+}
+input{
+    font-size: 25px;
+    background:white;
+    color:rgb(16, 17, 17);
+height: 50px;
+width:30vh;
+text-align: left;
+padding-left: 50px;
+}
+span{
+color: var(#f7bcf7);
+}
+nav{
+    line-height: 80px;
+    padding: top 2px;
+    padding-left: var(--primarycolor);
+}
+    img.mylogo{
+        max-width: 32%;   
+        border:10px #22282a solid ;
+        right: 2px;
+        position: absolute; 
+    display:block;
+    }  
+    .main-title{
+        line-height: 1.7;
+        color: #a71029;   
+    }  
+    .main-titl {
+   color:#7c166d;
+   line-height: normal;
+  text-align:left;   
+    }      
+ p{ 
+background-color: bisque;
+text-align: center;
+line-height: 1.5;
+border: #914d85 solid 10px;
+max-height: 70vh;
+max-width: 80vh;
+left:3px;
+overflow: auto;
+}  
+ul{ 
+    background-color: bisque;
+    text-align: center;
+    line-height: 1.5;
+    border: #914d85 solid 7px;
+    max-height: 85vh;
+    max-width: 100vh;
+    left:3px;
+    overflow: auto;
+} 
+.x{
+   height: 450px;
+   width: 450px;
+border:  solid 10px;
+background-color: antiquewhite;
+right: 70px;
+position: absolute;
+background-image: url(fifi.jpg);
+background-size: cover;
+top: 900px;
+} 
+.y{
+    height: 450px;
+    width: 450px;
+ border:  solid 10px;
+ background-color: antiquewhite;
+ right: 60px;
+ position: absolute;
+ background-image: url(dodo.jpg);
+ background-size: cover;
+ top: 1650px;
+ }
+ .z{
+ height: 385px;
+    width: 520px;
+ border:  solid 10px;
+ background-color: antiquewhite;
+ right: 60px;
+ position: absolute;
+ background-image: url(didi.jpg);
+background-size: cover;
+ top: 2600px;
+}
+
+a{
+color: #11125e;
+text-decoration: solid;
+line-height: 200px;
+top: 2200px;
+
+
+}  
+a:visited{
+color: rgb(69, 32, 202);
+} 
+ 
+.photos img{
+width: 200px;
+height: 200px;
+border: 5px solid rgb(171, 173, 168);
+} 
+.photos :hover{
+border: 5px solid gray;
+cursor:pointer;
+} 
+.main img{
+    width: 500px;
+    height: 400px;
+    border: 5px solid rgb(171, 173, 168);
+    position: absolute;
+    right: 60px;
+    top: 3730px;
+} 
+.f{
+    position: absolute;
+background-color: #3c413c00;
+border: #1f2020 10px solid;
+right: 800px;
+height: 200px;;
+width: 200px;
+text-align: center;
+}
+h4{
+color: #22282a;
+line-height: 40px;
+}
+
